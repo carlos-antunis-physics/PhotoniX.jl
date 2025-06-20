@@ -22,7 +22,7 @@ Understanding the nature of light and how to control it, in classical and quantu
 
 ##      License
 
-This toolkit was implements under [MIT License](https://github.com/carlos-antunis-physics/GuidedOptX.jl/tree/main?tab=MIT-1-ov-file).
+This toolkit was implements under [MIT License](./LICENSE).
 
 ##      Features and capabilites
 
