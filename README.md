@@ -58,9 +58,3 @@ The main features of quantum optics submodule consists in:
 - **Numerical propagation of photons.** Numerical methods on photon propagation through photonic chips.
 
 </div>
-
-<div align = "center">
-
-[![under construction](https://github.com/carlos-antunis-physics/carlos-antunis-physics/blob/main/assets/under-construction.png?raw=true)](#)
-
-</div>
