@@ -4,7 +4,7 @@
     <img src="GuidedOptX.jpeg" width="750">
 ](#---)
 
-##  Guided Optics Toolkit in Julia
+#       Guided Optics Toolkit in Julia
 
 [Carlos Antunis Bonfim da Silva Santos](https://github.com/carlos-antunis-physics/)
 
@@ -21,5 +21,46 @@
 <div align="justify">
 
 Understanding the nature of light and how to control it, in classical and quantum regime, represents a research area of significant impact nowadays, driven largely by the emergence of quantum technologies as a proeminent source of novel applications. This `Julia` toolkit aims to provide a simple but widely applicable framework for academic research on classical and quantum optics, specially in the context of guided waves design - but also is capable to approach on bulk optics and non-linear effects. It's mainly designed for simulations on experimental contexts, via numerical methods, but also comprehends theoretical utils on algebraic manipulation of optical modes - classical and quantum in both contexts.
+
+##      License
+
+This toolkit was implements under [MIT License](./LICENSE).
+
+##      Features and capabilites
+
+This toolkit was design to approach photonic chip design both on classical and quantum optics. The toolkit is divided through three main capabilities
+
+*   **Classical optics.**
+    Numerical and analytical approach on paraxial wave optics (encompassing linear, both scalar and vector, optics and non-linear regimes), besides some phase optimization algorithms for bulk optics.
+
+*   **Quantum optics.**
+    Analytical approach on quantum states of light (both in Fock space and as polarization states), and numerical simulations of its propagation through photonic chips.
+
+*   **Optical waveguides design.**
+    Design of optical waveguides through phase optimization methods, besides some estimations through neural networks.
+
+###     Classical optics
+
+>   The submodule designed to classical optics is widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) `Matlab library` implemented by [José Carlos do A. Rocha](https://github.com/Windier/).
+
+The main features of classical optics submodule consists in:
+
+- **Symbolic manipulation of modes.** Robust tools on algebraic manipulation of free-space expression of classical modes which allows also numerical evaluations.
+- **Numerical propagation of fields.** Fourier <!--and Finite-Differences--> beam propagation methods to estimate waveguides and nonlinear responses effects on light propagation in the paraxial approximation through photonic chips.
+- **Polarization optics.** Symbolic and numerical methods of classical optics is also implemented for media with polarization effects.
+- **Phase optimization.** Numerical methods on phase optimization to implement unitary transformations over classical light.
+
+###     Quantum optics
+
+The main features of quantum optics submodule consists in:
+
+- **Symbolic manipulation of light quantum states.** Robust tools on algebraic manipulation of light quantum states, both as optical modes and as polarization states.
+- **Numerical propagation of photons.** Numerical methods on photon propagation through photonic chips.
+
+</div>
+
+<div align = "center">
+
+[![under construction](https://github.com/carlos-antunis-physics/carlos-antunis-physics/blob/main/assets/under-construction.png?raw=true)](#)
 
 </div>
