@@ -55,6 +55,19 @@ The main features of quantum optics submodule consists in:
 - **Symbolic manipulation of light quantum states.** Robust tools on algebraic manipulation of light quantum states, both as optical modes and as polarization states.
 - **Numerical propagation of photons.** Numerical methods on photon propagation through photonic chips.
 
+##      Cite us
+
+If you find this toolkit useful in your research, please cite this repository as:
+
+```tex
+@Misc{GuidedOptX2025,
+    author       = {Carlos Antunis Bonfim da Silva Santos},
+    title        = {GuidedOptX.jl},
+    howpublished = {Github: https://github.com/carlos-antunis-physics/GuidedOptX.jl},
+    year         = {2025},
+}
+```
+
 </div>
 
 </div>
