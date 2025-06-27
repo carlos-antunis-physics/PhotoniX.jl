@@ -54,19 +54,3 @@ Usually, in experimental context, some of the characteristics of light are negle
 
 
 </div>
-
-<!--
-##  Published articles
-
->   [**GuidedOptX.jl: a numerical and theoretical toolbox for classical and quantum optics**](./articles/arXiv/0000-00001.ipynb)
->
->   **DOI:** [https://doi.org/10.48550/arXiv](https://doi.org/10.48550/arXiv)
->
->   This article presents a robust open-source Julia library designed for theoretical and numerical approach on optics. The toolkit provides a comprehensive suite of tools for simulating guided and nonlinear optics, in both classical and quantum regime. Its modular structure enables to analyze algebraic properties of optical modes and evaluate numerically their propagation through optical media with inhomogeneities and nonlinear responses, but also design waveguides to implement optical operations in a simple but robust way through neural networks. The library leverages Julia's performance and ease of use, offering interactive notebooks and extensible modules for rapid prototyping and advanced studies in photonics.
-
->   [**Physics-informed neural-network (PINN) aided design of Controlled-Not (CNOT) gate for classical structured light**](./articles/arXiv/0000-00002.ipynb)
->
->   **DOI:** [https://doi.org/](https://doi.org/)
->
->   This article presents a implementation of Controlled-X (cnot) gate using only classical optical fields, where qubits are both encoded on the Spatial Poincaré Sphere, as a superposition of orbital angular momentum (OAM) modes with $\pm 1$ units of angular momentum. We demonstrate how spatial mode transformation could be exploited to realize logic operations analogous to quantum gates classically.
--->
