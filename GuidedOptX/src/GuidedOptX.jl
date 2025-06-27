@@ -10,16 +10,4 @@ module GuidedOptX
 
 __version__ = "1.0.0";
 
-try
-    @eval using GLMakie
-    println("Using GLMakie for visualization.")
-catch
-    try
-        @eval using CairoMakie
-        println("Using CairoMakie for visualization.")
-    catch
-        error("Please install either GLMakie or CairoMakie.")
-    end
-end
-
 end # module GuidedOptX

@@ -4,7 +4,7 @@
     <img src="GuidedOptX.jpeg" width="750">
 ](#---)
 
-#       Guided Optics Toolkit in Julia
+#       Guided Optics in Julia
 
 [Carlos Antunis Bonfim da Silva Santos](https://github.com/carlos-antunis-physics/)
 
