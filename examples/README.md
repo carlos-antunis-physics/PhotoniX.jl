@@ -1,7 +1,7 @@
 <div align="center">
 
 [
-    <img src="../GuidedOptX-logo.jpeg" width="100">
+    <img src="../GuidedOptX-logo.jpeg" width="150">
 ](#---)
 
 #   Guided and Nonlinear Optics Toolbox (`GuidedOptX.jl`)
@@ -12,13 +12,19 @@ This library was designed as an theoretical and numerical toolkit on light propa
 
 ##  Classical optics fundamentals
 
+In context of classical optics, light is fundamentally described by electromagnetic theory. According to Faraday-Lenz and Ampère laws, both electric and magnetic fields oscillating could sustain and regenerate each other, that's the essence of light's nature - light consists in a vectorial wave phenomena sustained by the oscillation of driving force fields which perturbation travels through space along the evolution of time.
+
+### Wave properties of classical light
+
+Usually, in experimental context, some of the characteristics of light are neglected, due to its minor relevance on the observed phenomena. The main aspect which is widely neglected is the vectorial aspect of light waves, however, since lasers is the main source of light in experiments, some other approximations are taking into account, such as monochromaticity of light and its propagation anisotropy, leading to a simpler and cleaner, but also robust, framework - in which light could be described univocally by its amplitude along space.
+
 >   [**1. Fundamentals of beam optics**](./1.classical-optics/1.fundamentals-of-beam-optics.ipynb)
 >   
->   This notebook will introduce the scalar wave formulation of optics, focusing on wave equation and its algebraic properties, besides the physical implications of it. Furthermore, exploring the Slow-varying envelope approximation by Fresnel approximation of spherical waves, discussing the fundamentals of gaussian beams, including their propagation and characteristics.
+>   This notebook will introduce the wave formulation of optics, focusing on wave equation and its algebraic properties, besides the physical implications of it. Furthermore, exploring the Slow-varying envelope approximation by Fresnel approximation of spherical waves, discussing the fundamentals of gaussian beams, including their propagation and characteristics.
 
 >   [**2. Introduction to numerical propagation methods**](./1.classical-optics/2.introduction-to-numerical-propagation-methods.ipynb)
 >
->   This notebook will, firstly, introduce the basics of Fourier optics as a approach on fundamental algebraic properties of light propagation in free-space, thus extending it for inhomogeneous and non-linear optical media through split-step beam propagation method. Furthermore, discussing wavely phenomena such as diffraction, image formations and filtering, and minor examples on phase and amplitude modulations by holography.
+>   This notebook will, firstly, introduce the basics of Fourier optics as a approach on fundamental algebraic properties of light propagation in free-space, thus extending it for inhomogeneous optical media through split-step beam propagation method. Furthermore, discussing wavely phenomena such as diffraction, image formations and filtering, and minor examples on phase and amplitude modulations by holography.
 
 >   [**3. Fundamentals of structured light**](./1.classical-optics/3.fundamentals-of-structured-light.ipynb)
 >
@@ -32,7 +38,15 @@ This library was designed as an theoretical and numerical toolkit on light propa
 >
 >   This notebook will extends holographic methods commonly used at an optics lab. Firstly, multiplane light conversion (MPLC) method will be discussed, and subsequently Neural-network aided methods will be introduced, focusing mainly in optical waveguides design to implement optical operations or transformations through linear inhomogeneities of an optical media.
 
+<!--
+### Vectorial properties of classical light
+
+### Fundamentals of nonlinear responses of materials
+
 ##  Quantum optics fundamentals
+
+### Quantum states of light
+-->
 
 <div align = "center">
 
@@ -40,3 +54,19 @@ This library was designed as an theoretical and numerical toolkit on light propa
 
 
 </div>
+
+<!--
+##  Published articles
+
+>   [**GuidedOptX.jl: a numerical and theoretical toolbox for classical and quantum optics**](./articles/arXiv/0000-00001.ipynb)
+>
+>   **DOI:** [https://doi.org/10.48550/arXiv](https://doi.org/10.48550/arXiv)
+>
+>   This article presents a robust open-source Julia library designed for theoretical and numerical approach on optics. The toolkit provides a comprehensive suite of tools for simulating guided and nonlinear optics, in both classical and quantum regime. Its modular structure enables to analyze algebraic properties of optical modes and evaluate numerically their propagation through optical media with inhomogeneities and nonlinear responses, but also design waveguides to implement optical operations in a simple but robust way through neural networks. The library leverages Julia's performance and ease of use, offering interactive notebooks and extensible modules for rapid prototyping and advanced studies in photonics.
+
+>   [**Physics-informed neural-network (PINN) aided design of Controlled-Not (CNOT) gate for classical structured light**](./articles/arXiv/0000-00002.ipynb)
+>
+>   **DOI:** [https://doi.org/](https://doi.org/)
+>
+>   This article presents a implementation of Controlled-X (cnot) gate using only classical optical fields, where qubits are both encoded on the Spatial Poincaré Sphere, as a superposition of orbital angular momentum (OAM) modes with $\pm 1$ units of angular momentum. We demonstrate how spatial mode transformation could be exploited to realize logic operations analogous to quantum gates classically.
+-->
