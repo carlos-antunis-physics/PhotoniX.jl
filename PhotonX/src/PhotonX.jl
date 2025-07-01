@@ -31,6 +31,5 @@ module PhotonX
     Waveguide = include("Waveguide/Waveguide.jl");
 
     Utils = include("Utils.jl");
-
     
 end # module PhotonX
