@@ -13,3 +13,7 @@ version = "0.16.4"
 [[PyCall]]
 uuid = "438e738f-606a-5dbb-bf38-4a8a48d2e3e2"
 version = "1.96.4"
+
+[[Symbolics]]
+uuid = "0c5d862f-8b57-5795-8abe-9498e20a7b1a"
+version = "6.43.0"
