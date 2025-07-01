@@ -1,5 +1,5 @@
 # Test files
-*.test.ipynb
+*.test.*
 
 #
 #   Julia programming language files
