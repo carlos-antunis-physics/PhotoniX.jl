@@ -1,10 +1,10 @@
 <div align="center">
 
 [
-    <img src="../PhotonX-logo.jpeg" width="150">
+    <img src="../PhotonX.png" width="150">
 ](#---)
 
-#   Guided and Nonlinear Optics Toolbox (`GuidedOptX.jl`)
+#   Computational Photonics Toolbox (`PhotonX.jl`)
 
 </div>
 

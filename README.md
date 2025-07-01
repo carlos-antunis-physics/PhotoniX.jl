@@ -1,12 +1,12 @@
 <div align="center">
 
 [
-    <img src="PhotonX.jpeg" width="750">
+    <img src="./PhotonX-extended.png" width="750">
 ](#---)
 
 #       `PhotonX` in Julia
 
-A computational toolkit for Guided Wave Optics
+A computational toolkit for Computational Photonics
 
 
 [Carlos Antunis Bonfim da Silva Santos](https://github.com/carlos-antunis-physics/)
