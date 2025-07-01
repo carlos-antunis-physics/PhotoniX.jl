@@ -70,10 +70,10 @@ Some [examples of usage](./examples/README.md) are available in this repository.
 If you find this toolkit useful in your research, please cite this repository as:
 
 ```tex
-@Misc{GuidedOptX2025,
+@Misc{PhotonX2025,
     author       = {Carlos Antunis Bonfim da Silva Santos},
-    title        = {GuidedOptX.jl},
-    howpublished = {Github: https://github.com/carlos-antunis-physics/GuidedOptX.jl},
+    title        = {PhotonX.jl},
+    howpublished = {Github: https://github.com/carlos-antunis-physics/PhotonX.jl},
     year         = {2025},
 }
 ```

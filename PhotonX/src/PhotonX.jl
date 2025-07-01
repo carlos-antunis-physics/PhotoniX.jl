@@ -22,14 +22,14 @@ module PhotonX
     __precompile__();
 
     __version__ = v"0.1.0";
-
-    export __version__;
-
+    
     Classical = include("Classical/Classical.jl");
     Quantum = include("Quantum/Quantum.jl");
-
+    
     Waveguide = include("Waveguide/Waveguide.jl");
-
+    
     Utils = include("Utils.jl");
+
+    export __version__, Classical, Quantum, Waveguide, Utils;
     
 end # module PhotonX
