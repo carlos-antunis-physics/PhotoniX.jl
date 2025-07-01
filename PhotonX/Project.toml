@@ -1,0 +1,6 @@
+name = "PhotonX"
+uuid = "2fd7646f-0885-4b78-a93a-3ffb1feb20b4"
+version = "0.1.0"
+authors = ["carlos antunis physics <carlos.bonfim@fis.ufal.br>"]
+description = "A Julia toolkit for Computational Photonics"
+license = "MIT"
