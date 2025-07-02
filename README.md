@@ -6,7 +6,7 @@
 
 #       `PhotonX` in Julia
 
-A Julia toolkit for Computational Photonics
+A Computational Toolkit for design and simulation of photonic devices
 
 [Carlos Antunis Bonfim da Silva Santos](https://github.com/carlos-antunis-physics/)
 
