@@ -2,9 +2,9 @@ module PhotonX
 """
     PhotonX.jl:
         A Comprehensive Julia Framework designed for Computational Photonics. The numerical
-        methods implemented in this package was developed for experimental purposes, although
-        it also provides a solid framework for theoretical studies. A basic documentation is
-        available as docstrings, however we widely encourage users to explore the availabele
+        methods implemented in this package was developed for experimentalists, although it
+        also provides a solid framework for theoretical studies. A simple documentation is
+        available as docstrings, however we widely encourage users to explore the available
         examples provided at:
             <https://github.com/carlos-antunis-physics/PhotonX.jl/tree/main/examples/>
         The package is under active development, and contributions are welcome.
@@ -29,7 +29,7 @@ module PhotonX
     Waveguide = include("Waveguide/Waveguide.jl");
     
     Utils = include("Utils.jl");
-
+    
     export __version__, Classical, Quantum, Waveguide, Utils;
     
 end # module PhotonX
