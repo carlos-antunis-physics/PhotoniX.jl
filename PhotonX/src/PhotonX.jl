@@ -10,26 +10,22 @@ module PhotonX
         The package is under active development, and contributions are welcome.
 
         available submodules:
-            - Classical: Classical Photonics
-            - Quantum: Quantum Photonics
+            - Mode: Classical and Quantum mode design and propagation
             - Waveguide: Waveguide design and analysis
-            - Utils: Utilitaries for Computational Photonics
 
-    author: Carlos Antunis
+    author: Carlos Antunis [github.com/carlos-antunis-physics]
 
-    version: 0.1.0
+    version: 0.0.1
 """
     __precompile__();
 
-    __version__ = v"0.1.0";
+    __version__ = v"0.0.1";
     
-    Classical = include("Classical/Classical.jl");
-    Quantum = include("Quantum/Quantum.jl");
+    Classical = include("Mode/Mode.jl");
+    # Quantum = include("Quantum/Quantum.jl");
     
-    Waveguide = include("Waveguide/Waveguide.jl");
-    
-    Utils = include("Utils.jl");
-    
-    export __version__, Classical, Quantum, Waveguide, Utils;
-    
+    # Waveguide = include("Waveguide/Waveguide.jl");
+
+    export __version__, Classical;#, Quantum, Waveguide;
+
 end # module PhotonX

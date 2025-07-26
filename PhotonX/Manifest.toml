@@ -6,14 +6,6 @@ version = "1.9.0"
 uuid = "e9467ef8-e4e7-5192-8a1a-efc313d3d2a2"
 version = "0.11.5"
 
-[[Flux]]
-uuid = "587475ba-b771-5e3f-ad0b-213dc0446a7f"
-version = "0.16.4"
-
 [[PyCall]]
 uuid = "438e738f-606a-5dbb-bf38-4a8a48d2e3e2"
 version = "1.96.4"
-
-[[Symbolics]]
-uuid = "0c5d862f-8b57-5795-8abe-9498e20a7b1a"
-version = "6.43.0"

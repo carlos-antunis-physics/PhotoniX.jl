@@ -1,3 +1,0 @@
-module Propagation
-
-end
