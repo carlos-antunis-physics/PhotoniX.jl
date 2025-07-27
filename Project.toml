@@ -1,0 +1,18 @@
+name = "PhotonX"
+uuid = "3cbb9335-be08-401e-9068-6af3ab2f2fad"
+authors = ["carlos-antunis-physics <crlsantnys@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ClassicalOrthogonalPolynomials = "b30e2e7b-c4ee-47da-9d5f-2c5c27239acd"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+[compat]
+ClassicalOrthogonalPolynomials = "0.11.1"
+FFTW = "1.9.0"
+Flux = "0.16.5"
+SpecialFunctions = "2.5.1"
+Symbolics = "6.45.0"
