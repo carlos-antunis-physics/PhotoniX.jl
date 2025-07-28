@@ -22,6 +22,8 @@ A Computational Toolkit for design and simulation of photonic devices
 
 </div>
 
+<div align="justify" style="width:750px">
+
 Understanding how to control light, in classical and quantum context, represents a research area of significant impact nowadays - driven largely by the emergence of quantum phenomena as a prominent source of novel technological applications. The `PhotoniX` (pronounced *"Photonics"*) package aims to provide a simple but widely applicable toolkit for academic research on photonics, specially in scope of waveguide design - but it's also entirely capable to approach on bulk and nonlinear optics. It's mainly designed for simulations, via numerical methods, but it also comprehends theoretical utils, such as algebraic manipulation of optical modes - in both regimes, classical and quantum.
 
 
@@ -46,9 +48,14 @@ This toolkit was mainly developed to simulate and design photonic chips, both fo
 
 The `PhotoniX` package uses the dependencies listed as badges in the [top of the page](#photonix-in-julia). The unique consideration that must be taken is about visualizations with `Makie`.
 
+</div>
+
 >   [!IMPORTANT]
 >
 >  The package `PhotoniX` was [`Makie.jl`](https://docs.makie.org/stable/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
+
+
+<div align="justify" style="width:750px">
 
 ##      Cite us
 
@@ -63,3 +70,5 @@ If you find this toolkit useful in your research, please cite this repository as
     version = {0.0.1}
 }
 ```
+
+</div>
