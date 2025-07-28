@@ -33,21 +33,21 @@ This toolkit was implements under [MIT License](./LICENSE).
 This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
 
 *   **Classical Free-space algebra.**
-        The most fundamental feature of `PhotoniX.jl` is its capability to perform algebraic manipulations in Free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
+        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in Free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
 *   **Classical waveguide optics.**
-        The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX.jl`.
+        The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
 *   **Waveguide structure visualization.**
-        Waveguide structures can be visualizated in space using `PhotoniX.jl`, allowing a better control of its properties.
+        Waveguide structures can be visualizated in space using `PhotoniX`, allowing a better control of its properties.
 *   **Classical non-linear optics.**
-        Besides linear optics, `PhotoniX.jl` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon.
+        Besides linear optics, `PhotoniX` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon.
 
 ##      Dependencies
 
-The `PhotoniX.jl` package uses the dependencies listed as badges in the [top of the page](#photonix-in-julia). The unique consideration that must be taken is about visualizations with `Makie`.
+The `PhotoniX` package uses the dependencies listed as badges in the [top of the page](#photonix-in-julia). The unique consideration that must be taken is about visualizations with `Makie`.
 
 >   [!IMPORTANT]
 >
->  The package `PhotoniX.jl` was [`Makie.jl`](https://makie.org/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
+>  The package `PhotoniX` was [`Makie.jl`](https://makie.org/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
 
 ##      Cite us
 
