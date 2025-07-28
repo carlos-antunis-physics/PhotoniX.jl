@@ -22,7 +22,8 @@ A Computational Toolkit for design and simulation of photonic devices
 
 <div align="justify" style="width:750px">
 
-Understanding the nature of light and how to control it, in classical and quantum regime, represents a research area of significant impact nowadays, driven largely by the emergence of quantum technologies as a proeminent source of novel applications. This `Julia` toolkit aims to provide a simple but widely applicable framework for academic research on photonics, specially in the context of guided waves design - but also is capable to approach on bulk optics and non-linear effects. It's mainly designed for simulations on experimental contexts, via numerical methods, but also comprehends theoretical utils on algebraic manipulation of optical modes - in both contexts, classical and quantum.
+Understanding how to control light, in classical and quantum context, represents a research area of significant impact nowadays - driven largely by the emergence of quantum phenomena as a prominent source of novel technological applications. The `PhotoniX` (pronounced *"Photonics"*) package aims to provide a simple but widely applicable toolkit for academic research on photonics, specially in scope of waveguide design - but it's also entirely capable to approach on bulk and nonlinear optics. It's mainly designed for simulations, via numerical methods, but it also comprehends theoretical utils, such as algebraic manipulation of optical modes - in both regimes, classical and quantum.
+
 
 ##      License
 
@@ -32,8 +33,8 @@ This toolkit was implements under [MIT License](./LICENSE).
 
 This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
 
-*   **Classical Free-space algebra.**
-        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in Free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
+*   **Classical free-space algebra.**
+        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
 *   **Classical waveguide optics.**
         The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
 *   **Waveguide structure visualization.**
