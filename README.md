@@ -47,7 +47,7 @@ The `PhotoniX` package uses the dependencies listed as badges in the [top of the
 
 >   [!IMPORTANT]
 >
->  The package `PhotoniX` was [`Makie.jl`](https://makie.org/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
+>  The package `PhotoniX` was [`Makie.jl`](https://docs.makie.org/stable/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
 
 ##      Cite us
 
