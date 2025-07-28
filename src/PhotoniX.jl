@@ -13,15 +13,15 @@ module PhotoniX
         
         Available submodules:
         * Modes:
-            Classical modes of paraxial light, and quantum simulation algorithms.
+            Photonic modes algebraic and numerical treatment algorithms in paraxial
+            regime.
             * Propagation:
-                Algorithms for approximation of paraxial light propagation.
+                Numerical algorithms for estimating the propagation of modes in the
+                paraxial regime.
         * Waveguides:
-                Waveguide construction and design and visualization.
+            Photonic waveguide construction, prototyping and visualization.
                 * Design:
-                    Algorithms for waveguide design.
-                * Symbols:
-                    Symbolics of waveguide design and construction.
+                    Physics informed neural-networks for waveguide design.
 
         Author: Carlos Antunis [github.com/carlos-antunis-physics]
 

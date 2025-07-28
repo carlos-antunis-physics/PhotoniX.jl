@@ -24,48 +24,30 @@ A Computational Toolkit for design and simulation of photonic devices
 
 Understanding the nature of light and how to control it, in classical and quantum regime, represents a research area of significant impact nowadays, driven largely by the emergence of quantum technologies as a proeminent source of novel applications. This `Julia` toolkit aims to provide a simple but widely applicable framework for academic research on photonics, specially in the context of guided waves design - but also is capable to approach on bulk optics and non-linear effects. It's mainly designed for simulations on experimental contexts, via numerical methods, but also comprehends theoretical utils on algebraic manipulation of optical modes - in both contexts, classical and quantum.
 
->   [!IMPORTANT]
->
->  The package `PhotoniX.jl` uses [`Makie.jl`](https://makie.org/) for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
-
 ##      License
 
 This toolkit was implements under [MIT License](./LICENSE).
-<!-- 
-##      Features and capabilites
 
-This toolkit was design to approach photonic chip design both on classical and quantum optics. The toolkit is divided through three main capabilities.
+##      Features and capabilities
 
+This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
+
+*   **Classical Free-space algebra.**
+        The most fundamental feature of `PhotoniX.jl` is its capability to perform algebraic manipulations in Free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
 *   **Classical waveguide optics.**
-    Numerical and analytical approach on paraxial guidewave optics, besides some phase optimization algorithms for bulk optics.
+        The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX.jl`.
+*   **Waveguide structure visualization.**
+        Waveguide structures can be visualizated in space using `PhotoniX.jl`, allowing a better control of its properties.
+*   **Classical non-linear optics.**
+        Besides linear optics, `PhotoniX.jl` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon.
 
-*   **Optical waveguides design.**
-    Design of optical waveguides through phase optimization methods, besides some estimations through neural networks.
+##      Dependencies
 
-*   **Quantum optics.**
-    Analytical approach on quantum states of light (both in Fock space and as polarization states), and numerical simulations of its propagation through photonic chips.
+The `PhotoniX.jl` package uses the dependencies listed as badges in the [top of the page](#photonix-in-julia). The unique consideration that must be taken is about visualizations with `Makie`.
 
-###     Classical optics
-
->   The submodule designed to classical optics is widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) `Matlab library` implemented by [José Carlos do A. Rocha](https://github.com/Windier/).
-
-The main features of classical optics submodule consists in:
-
-- **Symbolic manipulation of modes.** Robust tools on algebraic manipulation of free-space expression of classical modes which allows also numerical evaluations.
-- **Numerical propagation of fields.** Fourier and Finite-Differences beam propagation methods to estimate waveguides and nonlinear responses effects on light propagation in the paraxial approximation through photonic chips.
-- **Polarization optics.** Symbolic and numerical methods of classical optics is also implemented for media with polarization effects.
-- **Phase optimization.** Numerical methods on phase optimization to implement unitary transformations over classical light.
-
-###     Quantum optics
-
-The main features of quantum optics submodule consists in:
-
-- **Symbolic manipulation of light quantum states.** Robust tools on algebraic manipulation of light quantum states, both as optical modes and as polarization states.
-- **Numerical propagation of photons.** Numerical methods on photon propagation through photonic chips.
-
-##      Usage examples
-
-Some [examples of usage](./examples/README.md) are available in this repository. -->
+>   [!IMPORTANT]
+>
+>  The package `PhotoniX.jl` was [`Makie.jl`](https://makie.org/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
 
 ##      Cite us
 
