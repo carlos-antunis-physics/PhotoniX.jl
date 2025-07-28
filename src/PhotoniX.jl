@@ -15,13 +15,16 @@ module PhotoniX
         * Modes:
             Photonic modes algebraic and numerical treatment algorithms in paraxial
             regime.
-            * Propagation:
+            * Modes.Propagation:
                 Numerical algorithms for estimating the propagation of modes in the
                 paraxial regime.
         * Waveguides:
             Photonic waveguide construction, prototyping and visualization.
-                * Design:
-                    Physics informed neural-networks for waveguide design.
+            * Waveguides.Utils:
+                Waveguide structure utils, such as standard waveguide bending and
+                refractive index profiles.
+            * Waveguides.Design:
+                Physics informed neural-networks for waveguide design.
 
         Author: Carlos Antunis [github.com/carlos-antunis-physics]
 
