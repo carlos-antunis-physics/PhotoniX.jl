@@ -24,8 +24,9 @@ A Computational Toolkit for design and simulation of photonic devices
 
 Understanding the nature of light and how to control it, in classical and quantum regime, represents a research area of significant impact nowadays, driven largely by the emergence of quantum technologies as a proeminent source of novel applications. This `Julia` toolkit aims to provide a simple but widely applicable framework for academic research on photonics, specially in the context of guided waves design - but also is capable to approach on bulk optics and non-linear effects. It's mainly designed for simulations on experimental contexts, via numerical methods, but also comprehends theoretical utils on algebraic manipulation of optical modes - in both contexts, classical and quantum.
 
-> [!WARNING]  
-> The package `PhotoniX.jl` uses [`Makie.jl`](https://makie.org/) for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
+>   [!IMPORTANT]
+>
+>  The package `PhotoniX.jl` uses [`Makie.jl`](https://makie.org/) for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
 
 ##      License
 
