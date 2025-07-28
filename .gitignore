@@ -28,6 +28,9 @@ docs/site/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Manifest.toml
+Manifest.toml
+
 #
 #   C / Fortran programming languages files
 #

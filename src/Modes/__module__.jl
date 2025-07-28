@@ -1,6 +1,10 @@
 module Modes
 
     __precompile__();
+    using Symbolics;
+    using ClassicalOrthogonalPolynomials: laguerrel as L, hermiteh as H;
+    using SpecialFunctions: besselj as J;
+
     export Propagation;
 
     """

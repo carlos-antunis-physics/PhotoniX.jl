@@ -1,5 +1,5 @@
 module PhotoniX
-    raw"""
+    """
         PhotoniX.jl:
             A comprehensive Julia lang framework designed for computational photonics.
             The package implements numerical and algebraic utils mainly designed for
@@ -23,8 +23,6 @@ module PhotoniX
             * Waveguides.Utils:
                 Waveguide structure utils, such as standard waveguide bending and
                 refractive index profiles.
-            * Waveguides.Design:
-                Physics informed neural-networks for waveguide design.
 
         Author: Carlos Antunis [github.com/carlos-antunis-physics]
 
