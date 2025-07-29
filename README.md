@@ -35,14 +35,20 @@ This toolkit was implements under [MIT License](./LICENSE).
 
 This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
 
-*   **Classical free-space algebra.**
-        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes.
+<!-- *   **Classical free-space algebra.**
+        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in free-space expression of fundamental optical modes - such as Hermite-Gaussian and Laguerre-Gaussian modes. -->
 *   **Classical waveguide optics.**
         The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
 *   **Waveguide structure visualization.**
         Waveguide structures can be visualizated in space using `PhotoniX`, allowing a better control of its properties.
 *   **Classical non-linear optics.**
         Besides linear optics, `PhotoniX` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon.
+<!-- *   **Vectorial beam simulations.**
+        The propagation of vectorial beams is another capability of `PhotoniX`, providing numerical approximation of vectorial effects, such as birrefringence on waveguides.
+*   **Quantization of classical modes.**
+        The `PhotoniX` package is fully capable to translate classical modes to quantum creation and anihilation operators, allowing quantum operations design through waveguides.
+*   **Design of waveguides.**
+        The capability of design waveguides adjusting experimental parameters using Physics Informed Neural-Networks (PINNs) is one of the most prominents features of `PhotoniX`. -->
 
 ##      Dependencies
 

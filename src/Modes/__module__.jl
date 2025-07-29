@@ -13,4 +13,9 @@ module Modes
 
     const Propagation = include("Propagation.jl");
 
+    struct __Mode_t__
+        __expression__ :: Symbolics.Num
+        __substitutions__ :: Dict{Symbol, Float64}
+    end
+
 end
