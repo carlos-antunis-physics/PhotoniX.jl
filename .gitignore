@@ -1,6 +1,6 @@
 # Project files
-*-test.*
-*-project
+*test.*
+*-project/
 
 #
 #   Julia programming language files
