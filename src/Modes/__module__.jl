@@ -15,6 +15,8 @@ module Modes
     hermite_gauss(w₀::Float64, m::Int, n::Int) = begin
         @variables x y;
         
+        hermitehe(l, u) = (1/2)^(n/2) * hermiteh(l, u / sqrt(2));
+
         Hₘ(u) = hermiteh(m, sqrt(2) * u / w₀);
         Hₙ(u) = hermiteh(n, sqrt(2) * u / w₀);
 
@@ -38,13 +40,15 @@ module Modes
 
     function (Ψ::Complex{Num})(X::LinRange, Y::LinRange)
         @variables x y r ϕ;
-        @variables J(..);
 
         #   Symbolic function handler
-        ψ(u, v) = substitute(
-            substitute(Ψ, Symbolics.besselj => besselj),
-            Dict(x => u, y => v, r => abs(u + 1im*v), ϕ => angle(u + 1im*v))
-        );
+        ψ(u, v) = begin
+            z = u + 1im*v;
+            return substitute(
+                substitute(Ψ, Symbolics.besselj => besselj),
+                Dict(x => u, y => v, r => abs(z), ϕ => angle(z))
+            );
+        end
 
         #   Convert to complex numbers
         __ComplexF64__(ψ) = ComplexF64(real(ψ).val, imag(ψ).val);
