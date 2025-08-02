@@ -6,10 +6,6 @@ module Modes
     using ClassicalOrthogonalPolynomials: laguerrel, hermiteh;
     using SpecialFunctions: besselj;
 
-    """
-        PhotoniX.Modes submodules
-    """
-
     export Propagation, hermite_gauss, laguerre_gauss, bessel;
 
     hermite_gauss(w₀::Float64, m::Int, n::Int) = begin
@@ -55,10 +51,6 @@ module Modes
 
         return [__ComplexF64__(ψ(u, v)) for u in X, v in Y];
     end
-
-    """
-        PhotoniX.Modes submodules
-    """
 
     const Propagation = include("Propagation.jl");
 
