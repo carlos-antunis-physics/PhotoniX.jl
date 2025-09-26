@@ -12,23 +12,32 @@ module PhotoniX
         Version: 0.1.0
         
         Available submodules:
-        * Modes:
-            Photonic modes algebraic and numerical treatment algorithms in paraxial
+        *   Mode
+            Algorithms for photonic modes algebraic and numerical treatment in paraxial
             regime.
-            * Modes.Propagation:
+            *   Mode.Holography
+                Numerical algorithms for holography generation and reconstruction of
+                optical fields.
+            *   Mode.Propagation
                 Numerical algorithms for estimating the propagation of modes in the
                 paraxial regime.
-        * Waveguides:
-            Photonic waveguide construction, prototyping and visualization.
-            * Waveguides.Utils:
-                Waveguide structure utils, such as standard waveguide bending and
-                refractive index profiles.
+            *   Mode.Algebra
+                Algebraic algorithms for photonic modes in paraxial regime.
+        *   Circuit
+            Algorithms for photonic circuit construction, and algebraic or numerical
+            simulation in paraxial regime.
+            *   Circuit.Waveguide
+                Waveguide data structure prototyping.
+                *   Circuit.Waveguide.Utils
+                    Waveguide structure utils, such as standard waveguide bending and
+                    refractive index profiles.
+            *   Circuit.Algebra
+                Algebraic algorithms for photonic circuits in paraxial regime.
 
         Author: Carlos Antunis [github.com/carlos-antunis-physics]
 
     """
 
-    __precompile__();
     export __version__, Modes, Waveguides;
 
     __version__ = v"0.1.0";
@@ -37,7 +46,9 @@ module PhotoniX
         PhotoniX.jl submodules
     """
 
-    const Modes = include("Modes/__module__.jl");
-    const Waveguides = include("Waveguides/__module__.jl");
+    const Modes = include("Mode/__init__.jl");
+    const Circuit = include("Circuit/__init__.jl");
+
+    const SymbolicUtils = include("SymbolicUtils/__init__.jl");
 
 end

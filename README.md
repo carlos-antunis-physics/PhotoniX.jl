@@ -24,7 +24,7 @@ A Computational Toolkit for design and simulation of photonic devices
 
 <div align="justify" style="width:750px">
 
-Understanding how to control light, in classical and quantum context, represents a research area of significant impact nowadays - driven largely by the emergence of quantum phenomena as a prominent source of novel technological applications. The `PhotoniX` (pronounced *"Photonics"*) package aims to provide a simple but widely applicable toolkit for academic research on photonics, specially in scope of waveguide design - but it's also entirely capable to approach on bulk and nonlinear optics. It's mainly designed for simulations, via numerical methods, but it also comprehends theoretical utils, such as algebraic manipulation of optical modes - in both regimes, classical and quantum.
+Understanding how to control light, in classical and quantum context, represents a research area of significant impact nowadays - driven largely by the emergence of quantum phenomena as a prominent source of novel technological applications. The `PhotoniX` (pronounced as *"Photonics"*) package aims to provide a simple but widely applicable toolkit for academic research on photonics, specially in scope of waveguide design - but it's also entirely capable to approach on bulk and nonlinear optics. It's mainly designed for simulations, via numerical methods, but it also comprehends theoretical utils, such as algebraic manipulation of optical modes - in both regimes, classical and quantum.
 
 
 ##      License
@@ -35,7 +35,7 @@ This toolkit was implements under [MIT License](./LICENSE).
 
 This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
 
-*   **Classical modes algebra.**
+*   **Classical and quantum modes algebra.**
         The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in transverse focal plane expressions of fundamental optical modes - such as Hermite-Gaussian, Laguerre-Gaussian and Bessel modes.
 *   **Classical waveguide optics.**
         The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
@@ -58,8 +58,7 @@ The `PhotoniX` package uses the dependencies listed as badges in the [top of the
 
 >   [!IMPORTANT]
 >
->  The package `PhotoniX` was [`Makie.jl`](https://docs.makie.org/stable/) internly for visualizations. Since we wanted to provide a general visualization toolkit we do not implemented the modules with a fixed backend, thus, for visualizations, declare what backend you are using - we recomend `GLMakie` for local running and `CairoMakie` for web.
-
+>  The package `PhotoniX` run [`GLMakie.jl`](https://docs.makie.org/stable/) internly for visualizations, since the three-dimensional graphics are not supported by other versions.
 
 <div align="justify" style="width:750px">
 
