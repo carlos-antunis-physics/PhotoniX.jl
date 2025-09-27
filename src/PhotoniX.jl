@@ -1,5 +1,6 @@
 module PhotoniX
-    """
+    @doc raw"""
+
         PhotoniX.jl:
             A comprehensive Julia lang framework designed for computational photonics.
             The package implements numerical and algebraic utils mainly designed for
@@ -10,14 +11,11 @@ module PhotoniX
             The package is under active development, and contributions are welcome.
 
         Version: 0.1.0
-        
+
         Available submodules:
         *   Mode
             Algorithms for photonic modes algebraic and numerical treatment in paraxial
             regime.
-            *   Mode.Holography
-                Numerical algorithms for holography generation and reconstruction of
-                optical fields.
             *   Mode.Propagation
                 Numerical algorithms for estimating the propagation of modes in the
                 paraxial regime.
@@ -38,7 +36,7 @@ module PhotoniX
 
     """
 
-    export __version__, Modes, Waveguides;
+    export __version__;
 
     __version__ = v"0.1.0";
 
@@ -46,7 +44,7 @@ module PhotoniX
         PhotoniX.jl submodules
     """
 
-    const Modes = include("Mode/__init__.jl");
-    const Circuit = include("Circuit/__init__.jl");
+    include("Mode/__init__.jl");
+    include("Circuit/__init__.jl");
 
 end
