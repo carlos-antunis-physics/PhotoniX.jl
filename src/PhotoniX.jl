@@ -36,7 +36,7 @@ module PhotoniX
 
     """
 
-    export __version__;
+    export __version__, Mode, Circuit;
 
     __version__ = v"0.1.0";
 
@@ -44,7 +44,6 @@ module PhotoniX
         PhotoniX.jl submodules
     """
 
-    include("Mode/__init__.jl");
-    include("Circuit/__init__.jl");
+    const Mode = include("Mode/__init__.jl");
 
 end
