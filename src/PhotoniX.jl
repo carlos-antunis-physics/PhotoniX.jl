@@ -33,7 +33,8 @@ module PhotoniX
                 Creation and annihilation operators formalism for photonic circuits
                 design in paraxial regime.
 
-        Author: Carlos Antunis [github.com/carlos-antunis-physics]
+        Author:
+            Carlos Antunis <https://github.com/carlos-antunis-physics>
 
     """
 
