@@ -21,8 +21,6 @@ module PhotoniX
             *   Mode.Propagation
                 Numerical algorithms for estimating the propagation of modes in the
                 paraxial regime.
-            *   Mode.Algebra
-                Algebraic algorithms for photonic modes in paraxial regime.
         *   Circuit
             Algorithms for photonic circuit construction, and algebraic or numerical
             simulation in paraxial regime.
@@ -32,7 +30,8 @@ module PhotoniX
                     Waveguide structure utils, such as standard waveguide bending and
                     refractive index profiles.
             *   Circuit.Algebra
-                Algebraic algorithms for photonic circuits in paraxial regime.
+                Creation and annihilation operators formalism for photonic circuits
+                design in paraxial regime.
 
         Author: Carlos Antunis [github.com/carlos-antunis-physics]
 
@@ -48,7 +47,5 @@ module PhotoniX
 
     const Modes = include("Mode/__init__.jl");
     const Circuit = include("Circuit/__init__.jl");
-
-    const SymbolicUtils = include("SymbolicUtils/__init__.jl");
 
 end
