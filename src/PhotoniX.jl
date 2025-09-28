@@ -10,7 +10,7 @@ module PhotoniX
                 <https://github.com/carlos-antunis-physics/PhotoniX.jl/>
             The package is under active development, and contributions are welcome.
 
-        Version: 0.1.0
+        Version: 0.1.1
 
         Available submodules:
         *   Mode
@@ -38,7 +38,7 @@ module PhotoniX
 
     export __version__, Mode, Circuit;
 
-    __version__ = v"0.1.0";
+    __version__ = v"0.1.1";
 
     """
         PhotoniX.jl submodules

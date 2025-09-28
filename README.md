@@ -73,7 +73,7 @@ If you find this toolkit useful in your research, please cite this repository as
     author = {Bonfim da Silva Santos, C. Antunis},
     title = {{PhotoniX.jl}},
     url = {https://github.com/carlos-antunis-physics/PhotoniX.jl},
-    version = {0.1.0}
+    version = {0.1.1}
 }
 ```
 
