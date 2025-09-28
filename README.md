@@ -18,11 +18,13 @@ A Computational Toolkit for design and simulation of photonic devices
 [![ClassicalOrthogonalPolynomials:0.11.1](https://img.shields.io/badge/ClassicalOrthogonalPolynomials-0.11.1-676767.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC0klEQVR4AWIYcsChwYHFfIa6P6C5qoh2Ggqig7u7e/JxqEuKuzvpx3ZsYYU7bHCLssNdmuLuVsHdff/dy7zFd0tei9xzbr333jeZydhVVnHIzFmHwpxzKozqVJkJ5Dv4k3DIrNuhMi/RNFIKX9lVhvsz5hI7Dg3SiFE5TCfVgFjCtiuOQeFEYqCTSeQ/ECug4BEibJDHIRYwqx3rkbJSBMiyCXGNIFrYlS5DiSANnQo7AqKFU+0STxsAJ2ZO9A2odhlNHQAnB6KFVezUBsVyqALIce1jdANi7lAEuA+xgl1lBxqsQo5NZgdBLIENtVJvALvCrIY/AVxC89AgtQzzVKfKzoc/CU7t2BaDbMAN+NyhsMlomkJe48xvdAld20E0iABUDHgsfMBj8gU58/cAZ05Bfgu4TccecKaJ+H2F8jUiFSSvf4IwXTsm8r5vIq+lIH+I0zVN9GreVatWVYSSEHb1bRfgLAE0jJTBW0GPuQWUAnXm8RZoehMNI2UwKPMnC48nnrYtiv8kJuUx6DZ/um+3N4MikGedaIriH4mJDv4S4s+0yy17BSz7XSKulw8583koAhQ9S8QN8B65XPCQM40lokb50GPtn2su8ac9RNQosU/GQ8Bt2UsVgDNL+af37ySCFDwAKPaMJgC5bAXKf4sywEsS4CsRpODLvADT/U/pAvh/kgBBugCm67kBBF67QhNA4rXH2APmHZQB1hXogTVUTcj7BHjoslpRMMdggKxQP1PXvCmY6mNRMMtggByBP2UHAjzNHmMBLALkgnYSvL59kIsnw3rVwrG6p2v83OYr70Z2rgZFcGTqkaoofFlf6bUHG2ddqAUFcdfprBHwmGVS3lLMM5CbX3TvXhVKgTpXrYITsQmrkVGKeRYuJWXL1CM1oDQ84GwM7oZlZCNiVW6i6Ul8v+hBP1sH0AmybLDDF6LZSbKcBN7vw+flpFfgf8NvGqzoTESMEbsAAAAASUVORK5CYII=&style=flat-square&labelColor=efefef)](#---)
 [![SpecialFunctions:2.5.1](https://img.shields.io/badge/SpecialFunctions-2.5.1-676767.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC0klEQVR4AWIYcsChwYHFfIa6P6C5qoh2Ggqig7u7e/JxqEuKuzvpx3ZsYYU7bHCLssNdmuLuVsHdff/dy7zFd0tei9xzbr333jeZydhVVnHIzFmHwpxzKozqVJkJ5Dv4k3DIrNuhMi/RNFIKX9lVhvsz5hI7Dg3SiFE5TCfVgFjCtiuOQeFEYqCTSeQ/ECug4BEibJDHIRYwqx3rkbJSBMiyCXGNIFrYlS5DiSANnQo7AqKFU+0STxsAJ2ZO9A2odhlNHQAnB6KFVezUBsVyqALIce1jdANi7lAEuA+xgl1lBxqsQo5NZgdBLIENtVJvALvCrIY/AVxC89AgtQzzVKfKzoc/CU7t2BaDbMAN+NyhsMlomkJe48xvdAld20E0iABUDHgsfMBj8gU58/cAZ05Bfgu4TccecKaJ+H2F8jUiFSSvf4IwXTsm8r5vIq+lIH+I0zVN9GreVatWVYSSEHb1bRfgLAE0jJTBW0GPuQWUAnXm8RZoehMNI2UwKPMnC48nnrYtiv8kJuUx6DZ/um+3N4MikGedaIriH4mJDv4S4s+0yy17BSz7XSKulw8583koAhQ9S8QN8B65XPCQM40lokb50GPtn2su8ac9RNQosU/GQ8Bt2UsVgDNL+af37ySCFDwAKPaMJgC5bAXKf4sywEsS4CsRpODLvADT/U/pAvh/kgBBugCm67kBBF67QhNA4rXH2APmHZQB1hXogTVUTcj7BHjoslpRMMdggKxQP1PXvCmY6mNRMMtggByBP2UHAjzNHmMBLALkgnYSvL59kIsnw3rVwrG6p2v83OYr70Z2rgZFcGTqkaoofFlf6bUHG2ddqAUFcdfprBHwmGVS3lLMM5CbX3TvXhVKgTpXrYITsQmrkVGKeRYuJWXL1CM1oDQ84GwM7oZlZCNiVW6i6Ul8v+hBP1sH0AmybLDDF6LZSbKcBN7vw+flpFfgf8NvGqzoTESMEbsAAAAASUVORK5CYII=&style=flat-square&labelColor=efefef)](#---)
 [![Latexify:0.16.10](https://img.shields.io/badge/Latexify-0.16.10-676767.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC0klEQVR4AWIYcsChwYHFfIa6P6C5qoh2Ggqig7u7e/JxqEuKuzvpx3ZsYYU7bHCLssNdmuLuVsHdff/dy7zFd0tei9xzbr333jeZydhVVnHIzFmHwpxzKozqVJkJ5Dv4k3DIrNuhMi/RNFIKX9lVhvsz5hI7Dg3SiFE5TCfVgFjCtiuOQeFEYqCTSeQ/ECug4BEibJDHIRYwqx3rkbJSBMiyCXGNIFrYlS5DiSANnQo7AqKFU+0STxsAJ2ZO9A2odhlNHQAnB6KFVezUBsVyqALIce1jdANi7lAEuA+xgl1lBxqsQo5NZgdBLIENtVJvALvCrIY/AVxC89AgtQzzVKfKzoc/CU7t2BaDbMAN+NyhsMlomkJe48xvdAld20E0iABUDHgsfMBj8gU58/cAZ05Bfgu4TccecKaJ+H2F8jUiFSSvf4IwXTsm8r5vIq+lIH+I0zVN9GreVatWVYSSEHb1bRfgLAE0jJTBW0GPuQWUAnXm8RZoehMNI2UwKPMnC48nnrYtiv8kJuUx6DZ/um+3N4MikGedaIriH4mJDv4S4s+0yy17BSz7XSKulw8583koAhQ9S8QN8B65XPCQM40lokb50GPtn2su8ac9RNQosU/GQ8Bt2UsVgDNL+af37ySCFDwAKPaMJgC5bAXKf4sywEsS4CsRpODLvADT/U/pAvh/kgBBugCm67kBBF67QhNA4rXH2APmHZQB1hXogTVUTcj7BHjoslpRMMdggKxQP1PXvCmY6mNRMMtggByBP2UHAjzNHmMBLALkgnYSvL59kIsnw3rVwrG6p2v83OYr70Z2rgZFcGTqkaoofFlf6bUHG2ddqAUFcdfprBHwmGVS3lLMM5CbX3TvXhVKgTpXrYITsQmrkVGKeRYuJWXL1CM1oDQ84GwM7oZlZCNiVW6i6Ul8v+hBP1sH0AmybLDDF6LZSbKcBN7vw+flpFfgf8NvGqzoTESMEbsAAAAASUVORK5CYII=&style=flat-square&labelColor=efefef)](#---)
-<!-- [![C programming language](https://img.shields.io/badge/C-efefef.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMDM1OTlDIiBkPSJNMTE3LjUgMzMuNWwuMy0uMmMtLjYtMS4xLTEuNS0yLjEtMi40LTIuNkw2Ny4xIDIuOWMtLjgtLjUtMS45LS43LTMuMS0uNy0xLjIgMC0yLjMuMy0zLjEuN2wtNDggMjcuOWMtMS43IDEtMi45IDMuNS0yLjkgNS40djU1LjdjMCAxLjEuMiAyLjMuOSAzLjRsLS4yLjFjLjUuOCAxLjIgMS41IDEuOSAxLjlsNDguMiAyNy45Yy44LjUgMS45LjcgMy4xLjcgMS4yIDAgMi4zLS4zIDMuMS0uN2w0OC0yNy45YzEuNy0xIDIuOS0zLjUgMi45LTUuNFYzNi4xYy4xLS44IDAtMS43LS40LTIuNnpNNjQgODguNWM5LjEgMCAxNy4xLTUgMjEuMy0xMi40bDEyLjkgNy42Yy02LjggMTEuOC0xOS42IDE5LjgtMzQuMiAxOS44LTIxLjggMC0zOS41LTE3LjctMzkuNS0zOS41UzQyLjIgMjQuNSA2NCAyNC41YzE0LjcgMCAyNy41IDguMSAzNC4zIDIwbC0xMyA3LjVDODEuMSA0NC41IDczLjEgMzkuNSA2NCAzOS41Yy0xMy41IDAtMjQuNSAxMS0yNC41IDI0LjVzMTEgMjQuNSAyNC41IDI0LjV6Ii8+PC9zdmc+&style=flat-square)](#---) -->
+<!--
+[![C programming language](https://img.shields.io/badge/C-efefef.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMDM1OTlDIiBkPSJNMTE3LjUgMzMuNWwuMy0uMmMtLjYtMS4xLTEuNS0yLjEtMi40LTIuNkw2Ny4xIDIuOWMtLjgtLjUtMS45LS43LTMuMS0uNy0xLjIgMC0yLjMuMy0zLjEuN2wtNDggMjcuOWMtMS43IDEtMi45IDMuNS0yLjkgNS40djU1LjdjMCAxLjEuMiAyLjMuOSAzLjRsLS4yLjFjLjUuOCAxLjIgMS41IDEuOSAxLjlsNDguMiAyNy45Yy44LjUgMS45LjcgMy4xLjcgMS4yIDAgMi4zLS4zIDMuMS0uN2w0OC0yNy45YzEuNy0xIDIuOS0zLjUgMi45LTUuNFYzNi4xYy4xLS44IDAtMS43LS40LTIuNnpNNjQgODguNWM5LjEgMCAxNy4xLTUgMjEuMy0xMi40bDEyLjkgNy42Yy02LjggMTEuOC0xOS42IDE5LjgtMzQuMiAxOS44LTIxLjggMC0zOS41LTE3LjctMzkuNS0zOS41UzQyLjIgMjQuNSA2NCAyNC41YzE0LjcgMCAyNy41IDguMSAzNC4zIDIwbC0xMyA3LjVDODEuMSA0NC41IDczLjEgMzkuNSA2NCAzOS41Yy0xMy41IDAtMjQuNSAxMS0yNC41IDI0LjVzMTEgMjQuNSAyNC41IDI0LjV6Ii8+PC9zdmc+&style=flat-square)](#---) -->
 <!-- [![Flux:0.16.4](https://img.shields.io/badge/Flux-0.16.4-676767.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA3lBMVEVHcEyfKyxJab4rgChMkT8cXBgrLi4wU7CjMDAgOR25SUgXHxgwUqxDY7sgfxsyhC8kJCQmJiYeRaA1V7KgMDCmNDS5REYsO2mpMDGfIyoqOFCxPz4vVKQufRmfPDMmJiYjIyM6W7RYKCg4WbMqQX+bJidjUxw2gS3WaGW3TEjUZ2Nog9cqKShuq19anUDaamZsh91nr19khMluid9doFFlo1dvrGBWc8tYnUttiNzNX1wADBxgfNHJVlYeKChgOTh5Q0FFV39QgJZYbKtniM8kKglmh81fdbubX0RvllPWgBNPAAAAKHRSTlMAVvw6/hP8ZIUf9Vg+yyesq9knbZeP6Px1QvzbhIL2y3tLuO+uYW/ZY9XCawAAAP9JREFUKJHNkdtSwjAURdNLShugBWEAR8S7hpKaatJQWq7e/f8fMklbRmcsj47rIfvMrNnn4QSA/43XOSC7pN6dE9KsXUoc56xONh1C1r8Jw3Xd0SUhfbeif1ypQYbDkG7XGxoqMF6dGIW6QRmWLqSbfEtLVdZGKKO4gGI9rSa3vmVZPjAmU4QGaPqNj0+eJNwOoO7CIH1QJHnOVUYisk+LtX6QChEpRJIIHZWy7mzO03tNyrkK+2kuMa9aAHoehGPzUfK2e3VeZMaMsWW7VZQb5owtJOx996yHxV6NzeWsJGaxinn7qLzNRa+xZzi8lm+vUj858GEAdLpevfwjvgCbbSmebmtXfwAAAABJRU5ErkJggg==&style=flat-square&labelColor=efefef)](#---) -->
 
 </div>
 
+<div align="center">
 <div align="justify" style="width:750px">
 
 Understanding how to control light, in classical and quantum context, represents a research area of significant impact nowadays - driven largely by the emergence of quantum phenomena as a prominent source of novel technological applications. The `PhotoniX` (pronounced as *"Photonics"*) package aims to provide a simple but widely applicable toolkit for academic research on photonics, specially in scope of waveguide design - but it's also entirely capable to approach on bulk and nonlinear optics. It's mainly designed for simulations, via numerical methods, but it also comprehends theoretical utils, such as algebraic manipulation of optical modes - in both regimes, classical and quantum.
@@ -36,14 +38,24 @@ This toolkit was implements under [MIT License](./LICENSE).
 
 This toolkit was mainly developed to simulate and design photonic chips, both for classical and quantum regime, including the subsequent features:
 
-*   **Classical and quantum modes algebra.**
-        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in transverse focal plane expressions of fundamental optical modes - such as Hermite-Gaussian, Laguerre-Gaussian and Bessel modes.
+###     Classical optics features
+
+*   **Classical mode evaluation.**
+        The most elementary feature of `PhotoniX` package is its capability to evaluate classical structured optical modes (Hermite-Gaussian, Laguerre-Gaussian and Bessel modes) in transverse focal plane.
 *   **Classical waveguide optics.**
         The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
 *   **Waveguide structure visualization.**
         Waveguide structures can be visualizated in space using `PhotoniX`, allowing a better control of its properties.
-*   **Classical non-linear optics.**
-        Besides linear optics, `PhotoniX` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon.
+
+###     Quantum optics features
+
+*   **Algebraic composition of photonic chips on creation operators.**
+        Algebraic manipulation of quantum creation operators using photonic chips are also implemented in `PhotoniX`, allowing to compose effects and obtain a better understanding of effects of photonic chips in quantum states of light.
+<!-- 
+*   **Classical and quantum modes algebra.**
+        The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in transverse focal plane expressions of fundamental optical modes - such as Hermite-Gaussian, Laguerre-Gaussian and Bessel modes. -->
+<!-- *   **Classical non-linear optics.**
+        Besides linear optics, `PhotoniX` also is capable to approach on non-linear optics - until now, only simple phenomena as Kerr and Pockels nonlinearities can be simulated using the package, but we hope to gather some further nonlinerities in this range soon. -->
 <!-- *   **Vectorial beam simulations.**
         The propagation of vectorial beams is another capability of `PhotoniX`, providing numerical approximation of vectorial effects, such as birrefringence on waveguides.
 *   **Quantization of classical modes.**
@@ -56,11 +68,13 @@ This toolkit was mainly developed to simulate and design photonic chips, both fo
 The `PhotoniX` package uses the dependencies listed as badges in the [top of the page](#photonix-in-julia). The unique consideration that must be taken is about visualizations with `Makie`.
 
 </div>
+</div>
 
 >   [!IMPORTANT]
 >
->  The package `PhotoniX.jl` uses [`Makie.jl`](https://docs.makie.org/stable/) internly to generate visualizations. For three-dimensional graphics, only `GLMakie` is used, since this kind of graphics is not supported by `CairoMakie`, and I had no idea why to use `WGLMakie`. Thus, we recommend widely to use `GLMakie`, however if you do not want to generate three-dimensional visualizations of waveguides, you could, in principle, use `CairoMakie` as `Makie` backend.
+>   This package uses [`Makie.jl`](https://docs.makie.org/stable/) for visualization of waveguide structures. For visualization of a `PhotoniX.chip_t` we widely recommend `Cairo` as backend but you could, in principle, use any backend that fits better to your purposes. However, for tree-dimensional visualization of waveguide structures it's necessary to use `OpenGL` as backend, since no other provides `volume` plots.
 
+<div align="center">
 <div align="justify" style="width:750px">
 
 ##      Cite us
@@ -73,7 +87,7 @@ If you find this toolkit useful in your research, please cite this repository as
     author = {Bonfim da Silva Santos, C. Antunis},
     title = {{PhotoniX.jl}},
     url = {https://github.com/carlos-antunis-physics/PhotoniX.jl},
-    version = {0.1.1}
+    version = {1.0.0}
 }
 ```
 
