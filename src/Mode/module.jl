@@ -74,12 +74,12 @@ module Mode
         _sqrt2 = sqrt(2);
 
         _x, _y = [x / w0 for x in X, _ in Y], [y / w0 for _ in X, y in Y];
-        _z = @. (_sqrt2 * (_x + 1im*_s*_y))^_l;
+        z = @. (_sqrt2 * (_x + 1im*_s*_y))^_l;
         r² = @. (_x^2 + _y^2);
 
         A = sqrt(2 * factorial(p) / (π * w0^2 * factorial(p + _l)));
 
-        return @. A * _z * laguerrel(p, _l, 2*_r²) * exp(-r²);
+        return @. A * z * laguerrel(p, _l, 2r²) * exp(-r²);
     end
 
     function hermiteGauss(w0 ::number_t, m :: Int64, n :: Int64, X :: coordinate_t, Y :: coordinate_t)
