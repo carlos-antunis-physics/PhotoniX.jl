@@ -30,7 +30,7 @@ module Mode
 
     function gaussian(w0 ::number_t, X :: coordinate_t, Y :: coordinate_t)
         """
-            PhotoniX.Mode.gaussian(w0, X, Y):
+            PhotoniX.Mode.gaussian:
 
                 Returns the gaussian mode profile evaluated at the XY region of
                 transverse plane.
@@ -53,7 +53,7 @@ module Mode
 
     function laguerreGauss(w0 ::number_t, l :: Int64, X :: coordinate_t, Y :: coordinate_t, p :: Int64 = 0)
         """
-            PhotoniX.Mode.laguerreGauss(w0, l, X, Y; p = 0):
+            PhotoniX.Mode.laguerreGauss:
 
                 Returns the laguerre-gaussian mode profile evaluated at the XY region
                 of transverse plane.
@@ -84,7 +84,7 @@ module Mode
 
     function hermiteGauss(w0 ::number_t, m :: Int64, n :: Int64, X :: coordinate_t, Y :: coordinate_t)
         """
-            PhotoniX.Mode.hermiteGauss(w0, m, n, X, Y):
+            PhotoniX.Mode.hermiteGauss:
 
                 Returns the hermite-gaussian mode profile evaluated at the XY region
                 of transverse plane.
@@ -113,7 +113,7 @@ module Mode
 
     function bessel(κ ::number_t, m :: Int64, X :: coordinate_t, Y :: coordinate_t)
         """
-            PhotoniX.Mode.bessel(κ, m, X, Y):
+            PhotoniX.Mode.bessel:
 
                 Returns the bessel mode profile evaluated at the XY region of
                 transverse plane.

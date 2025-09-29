@@ -17,10 +17,8 @@ module PhotoniX
                 Functions to evaluate classical structured light in paraxial regime
                 along the transverse plane on the focal region.
         *   Waveguide
-                Waveguide constructors for several transverse profiles and bending
-                along the propagation axis.
-            *   Waveguide.Utils
-                    Utility functions for waveguide transverse profile construction.
+                Constructors and utils for design transverse profiles of optical
+                waveguides and bending along the propagation axis.
         *   QuantumAlgebra
                 Creation and annihilation operators formalism for simulating quantum
                 aspects of photonic circuits.
@@ -32,6 +30,8 @@ module PhotoniX
 
     export __version__, Mode, Waveguide, QuantumAlgebra;
 
+    using FFTW;
+
     __version__ = v"1.0.0";
 
     """
@@ -42,4 +42,21 @@ module PhotoniX
     Waveguide = include("Waveguide/module.jl");
     QuantumAlgebra = include("QuantumAlgebra/module.jl");
 
+    """
+        PhotoniX.jl main module
+    """
+
+    number_t = Union{Float64, Int64};
+    coordinate_t = AbstractArray{<:number_t, 1};
+
+    function splitStep(
+        Ψ :: Mode.mode_t,
+        n0 :: number_t,
+        λ :: number_t,
+        X :: coordinate_t, Y :: coordinate_t,
+        z :: number_t, Δz :: number_t,
+        Δn :: AbstractArray{Waveguide.waveguide_t, 1},
+    )
+
+    end
 end
