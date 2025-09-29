@@ -185,6 +185,33 @@ module Waveguide
         end
     end
 
+    """
+        PhotoniX.Waveguide.visualize!:
+
+            Visualizes the refractive index profile of a set of waveguides in a
+            three-dimensional plot.
+
+        @parameters:
+            ax :: GLMakie.Axis3
+                The axis where the volume will be plotted.
+            Δn :: AbstractArray{Waveguide.waveguide_t, 1}
+                An array containing the transverse profile functions of the
+                waveguides along the propagation axis.
+            X :: coordinate_t
+                The X coordinates of the grid points.
+            Y :: coordinate_t
+                The Y coordinates of the grid points.
+            zi :: number_t
+                The initial position of the waveguides along the propagation axis.
+            zf :: number_t
+                The final position of the waveguides along the propagation axis.
+
+        @keyword parameters:
+            planes :: Int64 = 20
+                The number of planes to be used for constructing the volume.
+            cmap :: Union{Symbol, Reverse{Symbol}} = Reverse(:bone)
+                The colormap to be used for plotting the volume.
+    """
     function visualize!(
         ax :: GLMakie.Axis3,
         Δn :: AbstractArray{<:Waveguide.waveguide_t, 1},
