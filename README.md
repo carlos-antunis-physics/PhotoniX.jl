@@ -44,13 +44,14 @@ This toolkit was mainly developed to simulate and design photonic chips, both fo
         The most elementary feature of `PhotoniX` package is its capability to evaluate classical structured optical modes (Hermite-Gaussian, Laguerre-Gaussian and Bessel modes) in transverse focal plane.
 *   **Classical waveguide optics.**
         The package was widely inspired on [FiniteDifferenceBPM](https://github.com/Windier/FiniteDifferenceBPM/) implemented by [José Carlos](https://github.com/Windier/), which is a `MATLAB` library to simulate classical non-vectorial waveguide optics, this capabilities was inherited by `PhotoniX`.
+<!--
 *   **Waveguide structure visualization.**
         Waveguide structures can be visualizated in space using `PhotoniX`, allowing a better control of its properties.
 
 ###     Quantum optics features
 
 *   **Algebraic composition of photonic chips on creation operators.**
-        Algebraic manipulation of quantum creation operators using photonic chips are also implemented in `PhotoniX`, allowing to compose effects and obtain a better understanding of effects of photonic chips in quantum states of light.
+        Algebraic manipulation of quantum creation operators using photonic chips are also implemented in `PhotoniX`, allowing to compose effects and obtain a better understanding of effects of photonic chips in quantum states of light. -->
 <!-- 
 *   **Classical and quantum modes algebra.**
         The most fundamental feature of `PhotoniX` is its capability to perform algebraic manipulations in transverse focal plane expressions of fundamental optical modes - such as Hermite-Gaussian, Laguerre-Gaussian and Bessel modes. -->

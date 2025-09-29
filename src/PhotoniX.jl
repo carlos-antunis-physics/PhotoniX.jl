@@ -19,9 +19,6 @@ module PhotoniX
         *   Waveguide
                 Constructors and utils for design transverse profiles of optical
                 waveguides and bending along the propagation axis.
-        *   QuantumAlgebra
-                Creation and annihilation operators formalism for simulating quantum
-                aspects of photonic circuits.
 
         Author:
             Carlos Antunis <https://github.com/carlos-antunis-physics>
