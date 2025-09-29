@@ -1,12 +1,12 @@
 module Mode
-    export gaussian, hermite_gauss, laguerre_gauss, bessel, ⊙;
+    export mode_t, gaussian, hermite_gauss, laguerre_gauss, bessel, ⊙;
 
     using ClassicalOrthogonalPolynomials: hermiteh, laguerrel;
     using SpecialFunctions: besselj;
 
     number_t = Union{Float64, Int64};
     coordinate_t = AbstractArray{<:number_t, 1};
-    mode_t = Matrix{Union{ComplexF64, Float64}};
+    mode_t = Matrix{<:Union{ComplexF64, Float64}};
 
     ⊙(ϕ :: mode_t, ψ :: mode_t) = begin
         """

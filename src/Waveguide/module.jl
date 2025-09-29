@@ -1,6 +1,7 @@
 module Waveguide
     export
-        straight,
+        waveguide_t,
+        straight, curved,
         rectangular, gaussian, annular, stepCircular, stepAnnular;
 
     number_t = Union{Float64, Int64};
@@ -49,6 +50,44 @@ module Waveguide
             return (abs(z - zm) ≤ halfΔz) ?
                 Δn * κ.(X, Y, z) :
                 zeros(Float64, length(x), length(y));
+        end
+    end
+
+    function curved(
+        Δn :: number_t, κ :: function_t,
+        zi :: number_t, Δz :: number_t,
+        r_i :: point2d_t = (0., 0.),
+        r_f :: point2d_t = (0., 0.)
+    )
+        """
+            PhotoniX.Waveguide.curved:
+
+                Returns a curved waveguide transverse profile function along the
+                propagation axis.
+
+            @parameters:
+                Δn :: number_t
+                    The refractive index contrast of the waveguide.
+                κ :: function_t
+                    The transverse profile function of the waveguide.
+                zi :: number_t
+                    The initial position of the waveguide along the propagation axis.
+                Δz :: number_t
+                    The length of the waveguide along the propagation axis.
+                r_i :: point2d_t = (0., 0.)
+                    The initial position of the waveguide along the transverse plane.
+                r_f :: point2d_t = (0., 0.)
+                    The final position of the waveguide along the transverse plane.
+        """
+        d = sqrt(sum((r_f .- r_i).^2));
+        if d == 0.0
+            return straight(Δn, κ, zi, Δz, r_i, r_f);
+        end
+        R = (Δz^2 + d^2) / 4d;
+        ax, bx, _sd = r_i[1] + R, r_i[1] + d - R, sign(d);
+        halfΔz = .5Δz;
+        return (x :: coordinate_t, y :: coordinate_t, z :: number_t) -> begin
+
         end
     end
 

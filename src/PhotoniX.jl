@@ -28,7 +28,10 @@ module PhotoniX
 
     """
 
-    export __version__, Mode, Waveguide, QuantumAlgebra;
+    export
+        __version__,
+        Mode, Waveguide,
+        splitStep;
 
     using FFTW;
 
@@ -40,7 +43,6 @@ module PhotoniX
 
     Mode = include("Mode/module.jl");
     Waveguide = include("Waveguide/module.jl");
-    QuantumAlgebra = include("QuantumAlgebra/module.jl");
 
     """
         PhotoniX.jl main module
@@ -50,13 +52,36 @@ module PhotoniX
     coordinate_t = AbstractArray{<:number_t, 1};
 
     function splitStep(
-        Ψ :: Mode.mode_t,
-        n0 :: number_t,
-        λ :: number_t,
         X :: coordinate_t, Y :: coordinate_t,
-        z :: number_t, Δz :: number_t,
-        Δn :: AbstractArray{Waveguide.waveguide_t, 1},
+        n0 :: number_t,
+        Δn :: AbstractArray{<:Waveguide.waveguide_t, 1} = [(x, y, z) -> 0.0]
     )
+        """
+            PhotoniX.splitStep:
 
+                Returns the split-step Fourier method propagator for simulating beam
+                propagation along the z-axis in presence of optical waveguides.
+
+            @parameters:
+                X :: coordinate_t
+                    The X coordinates of the grid points.
+                Y :: coordinate_t
+                    The Y coordinates of the grid points.
+                n0 :: number_t
+                    The background refractive index of the medium.
+                Δn :: AbstractArray{Waveguide.waveguide_t, 1}
+                    An array containing the transverse profile functions of the
+                    waveguides along the propagation axis.
+        """
+        K_x = 2π * fftfreq(length(X), 1 / step(X));
+        K_y = 2π * fftfreq(length(Y), 1 / step(Y));
+        ∇² = [kx^2 + ky^2 for kx in K_x, ky in K_y];
+        G(z) = sum([δn(X, Y, z) for δn in Δn]);
+        return (Ψ :: Mode.mode_t, λ :: number_t, z :: number_t, Δz :: number_t) -> begin
+            κ0 = 2π / λ;
+            κ = κ0 * n0;
+            return exp.(-1im * κ0 * G(z) * Δz) .*
+                    ifft(exp.(+1im * ∇² / 2κ * Δz) .* fft(Ψ));
+        end
     end
 end
