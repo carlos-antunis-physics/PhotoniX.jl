@@ -19,6 +19,8 @@ module PhotoniX
         *   Waveguide
                 Waveguide constructors for several transverse profiles and bending
                 along the propagation axis.
+            *   Waveguide.Utils
+                    Utility functions for waveguide transverse profile construction.
         *   QuantumAlgebra
                 Creation and annihilation operators formalism for simulating quantum
                 aspects of photonic circuits.
@@ -36,8 +38,8 @@ module PhotoniX
         PhotoniX.jl submodules
     """
 
-    const Mode = include("Mode/module.jl");
-    const Waveguide = include("Waveguide/module.jl");
-    const QuantumAlgebra = include("QuantumAlgebra/module.jl");
+    Mode = include("Mode/module.jl");
+    Waveguide = include("Waveguide/module.jl");
+    QuantumAlgebra = include("QuantumAlgebra/module.jl");
 
 end
