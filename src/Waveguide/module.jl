@@ -2,7 +2,10 @@ module Waveguide
     export
         waveguide_t,
         straight, curved,
-        rectangular, gaussian, annular, stepCircular, stepAnnular;
+        rectangular, gaussian, annular, stepCircular, stepAnnular,
+        visualize!;
+
+    using GLMakie;
 
     number_t = Union{Float64, Int64};
     function_t = Union{<:Function};
@@ -182,4 +185,31 @@ module Waveguide
         end
     end
 
+    function visualize!(
+        ax :: GLMakie.Axis3,
+        Δn :: AbstractArray{<:Waveguide.waveguide_t, 1},
+        X :: coordinate_t, Y :: coordinate_t,
+        zi :: number_t, zf :: number_t;
+        planes :: Int64 = 20,
+        cmap :: Union{Symbol, Reverse{Symbol}} = Reverse(:bone)
+    )
+        G(z) = sum([δn(X, Y, z) for δn in Δn]);
+        Nx, Ny = length(X), length(Y);
+        ΔnVol = permutedims(
+            reshape(
+                hcat([G(z) for z in LinRange(zi, zf, planes)]...),
+                Nx, Ny, planes
+            ),
+            (1, 3, 2)
+        );
+        v = volume!(
+            ax,
+            (X[1], X[end]), (zf, zi), (Y[1], Y[end]),
+            ΔnVol;
+            colormap = cmap,
+            algorithm = :mip,
+            transparency = true
+        );
+        return v;
+    end
 end
