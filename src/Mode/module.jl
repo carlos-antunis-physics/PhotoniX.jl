@@ -1,5 +1,5 @@
 module Mode
-    export mode_t, gaussian, hermite_gauss, laguerre_gauss, bessel;
+    export mode_t, gaussian, hermiteGauss, laguerreGauss, bessel;
 
     using ClassicalOrthogonalPolynomials: hermiteh, laguerrel;
     using SpecialFunctions: besselj;
