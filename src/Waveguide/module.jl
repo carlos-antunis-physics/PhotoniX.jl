@@ -90,7 +90,7 @@ module Waveguide
         ax, bx, _sd = r_i[1] + R, r_i[1] + d - R, sign(d);
         halfΔz = .5Δz;
         return (x :: coordinate_t, y :: coordinate_t, z :: number_t) -> begin
-
+            
         end
     end
 
